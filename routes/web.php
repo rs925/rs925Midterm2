@@ -23,12 +23,12 @@ Route::get('/', function () {
 Route::get('/contact', function () {
     return view('Pages.contact');
 });
-/*
+
 Route::get('/about', function () {
     return view('Pages.about');
 });
 
-*/
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

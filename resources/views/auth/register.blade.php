@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@extends('Includes.menu')
 
 @section('content')
 <div class="container">
